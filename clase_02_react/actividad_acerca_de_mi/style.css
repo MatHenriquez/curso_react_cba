@@ -30,3 +30,52 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+/* Media Queries para hacer la página responsiva */
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media only screen and (max-width: 600px) {
+  /* Podemos ajustar el padding del encabezado y las subsecciones */
+  header,
+  #info-personal,
+  #habilidades {
+    padding: 10px;
+  }
+  /* Y también cambiar el tamaño de la fuente del título */
+  h1,
+  h2 {
+    font-size: 18px;
+  }
+}
+/* Estilos para pantallas medianas (tabletas) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Aquí podríamos mantener el padding del encabezado y las
+    subsecciones igual */
+  header,
+  #info-personal,
+  #habilidades {
+    padding: 20px;
+  }
+  /* Pero quizás queremos que los títulos sean un poco más grandes que
+    en móviles pero menores que en desktop */
+  h1,
+  h2 {
+    font-size: 22px;
+  }
+}
+
+/* Estilos para pantallas grandes (desktops) */
+@media only screen and (min-width: 1025px) {
+  /* Aquí podríamos aumentar el padding del encabezado y las
+    subsecciones */
+  header,
+  #info-personal,
+  #habilidades {
+    padding: 30px;
+  }
+  /* Y hacer que los títulos sean más grandes */
+  h1,
+  h2 {
+    font-size: 28px;
+  }
+}
