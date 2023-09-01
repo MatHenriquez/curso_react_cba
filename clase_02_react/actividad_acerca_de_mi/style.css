@@ -1,0 +1,32 @@
+/* Estilos para el header */
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+/* Estilos para las subsecciones */
+#info-personal,
+#habilidades {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+/* Estilos para los títulos de subsecciones */
+#info-personal h2,
+#habilidades h2 {
+  font-size: 24px;
+}
+/* Estilos para la lista de habilidades */
+#habilidades ul {
+  list-style-type: square;
+}
+/* Estilos para el footer */
+footer {
+  background-color: #f1f1f1;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
