@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f8f8f8;
-  background-color: rgb(86, 144, 125);
+  background-color: rgb(3, 73, 50);
 }
 
 #container{
@@ -14,12 +14,12 @@ body {
 h1 {
   text-align: center;
   margin-top: 20px;
-  color: white;
+  color: ;
 }
 
 input[type="text"] {
   padding: 8px;
-  width: 89%;
+  width: 60%;
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-right: 10px;
@@ -55,10 +55,10 @@ li {
   border-radius: 5px;
 }
 
-.completed{
+.completed {
   text-decoration: line-through;
-  color: #6c6868;
-  background-color: #373839;
+  color: #888;
+  background-color: #484646;
 }
 
 button.delete {

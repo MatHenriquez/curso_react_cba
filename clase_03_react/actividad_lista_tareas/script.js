@@ -25,7 +25,6 @@ function agregarTarea() {
 
 // Función para marcar una tarea como completada
 function marcarCompletada(tarea) {
-  
   tarea.classList.toggle("completed");
 }
 
