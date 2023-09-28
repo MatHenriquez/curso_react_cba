@@ -17,17 +17,19 @@ function agregarTarea() {
     };
 
     nuevaTarea.appendChild(botonEliminar);
-    listaTareas.appendChild(nuevaTarea);
+    listaTareas.appendChild(nuevaTarea);;
+
     nuevaTareaInput.value = "";
   }
 }
 
 // Función para marcar una tarea como completada
 function marcarCompletada(tarea) {
+  
   tarea.classList.toggle("completed");
 }
 
-// Agregar evento de clic a las tareas para marcarlas como completadas
+// Agregar evento de click a las tareas para marcarlas como completadas
 document
   .getElementById("listaTareas")
   .addEventListener("click", function (event) {
@@ -35,6 +37,7 @@ document
       marcarCompletada(event.target);
     }
   });
+
 // Agregar evento de clic al botón "Agregar"
 document.getElementById("agregar").addEventListener("click", agregarTarea);
 

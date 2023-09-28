@@ -3,19 +3,30 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f8f8f8;
+  background-color: rgb(86, 144, 125);
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
   text-align: center;
   margin-top: 20px;
+  color: white;
 }
 
 input[type="text"] {
   padding: 8px;
-  width: 60%;
+  width: 89%;
   border: 1px solid #ccc;
   border-radius: 5px;
   margin-right: 10px;
+}
+
+input[type="checkbox"]{
+  background-color: #dc3545;
 }
 
 button {
@@ -25,11 +36,13 @@ button {
   border-radius: 5px;
   color: white;
   cursor: pointer;
+  width: 9%;
+  margin: 2px;
 }
 
 ul {
   list-style-type: none;
-  padding: 0;
+  padding: 5px;
 }
 
 li {
