@@ -55,9 +55,10 @@ li {
   border-radius: 5px;
 }
 
-.completed {
+.completed{
   text-decoration: line-through;
-  color: #888;
+  color: #6c6868;
+  background-color: #373839;
 }
 
 button.delete {
