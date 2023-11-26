@@ -4,7 +4,7 @@ import axios from "axios";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { BeatLoader } from "react-spinners";
-import ProductForm from "./ProductForm";
+import  ProductForm  from "./ProductForm";
 import { useAuth0 } from "@auth0/auth0-react";
 
 const ProductPage = () => {
