@@ -9,6 +9,7 @@ import ProtectedRoute from "../pages/User/ProtectedPage";
 import ProductoPage from "../pages/Product/ProductPage";
 
 import { Container } from "react-bootstrap";
+import CategoriesPage from "../pages/categories/CategoriesPage";
 const AppRoutes = () => {
   return (
     <Router>
@@ -21,6 +22,9 @@ const AppRoutes = () => {
           <Route path="/callback" element={<Callback />} />
           <Route path="/productos" element={<ProtectedRoute />}>
             <Route index element={<ProductoPage />} />
+          </Route>
+          <Route path="/categories" element={<ProtectedRoute />}>
+            <Route index element={<CategoriesPage />} />
           </Route>
           <Route path="/profile" element={<ProtectedRoute />}>
             <Route index element={<UserProfile />} />
